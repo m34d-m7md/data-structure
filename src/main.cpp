@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "../include/data_structure.h"
+#include "../include/data_structure.hpp"
 
 using data_structure::Sort;
 

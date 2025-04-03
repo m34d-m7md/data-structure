@@ -2,7 +2,6 @@
 #define DATA_STRUCTURE_H
 
 #include <stdlib.h>
-#include <iostream>
 
 typedef unsigned long long size_t;
 
@@ -64,7 +63,7 @@ namespace data_structure {
       // ---- O(n) time complexity ----
 
       T drop(size_t index) {
-        if (index > this->len) return 0.0;
+        if (index > this->len) return (T) 0;
       
         Node<T> *temp;
         T value;
